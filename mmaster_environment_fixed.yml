@@ -1,0 +1,35 @@
+name: mmaster_environment
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - geopandas
+  - gdal
+  - fiona
+  - rasterio
+  - cartopy
+  - shapely
+  - pyproj
+  - matplotlib
+  - numpy
+  - pandas
+  - xarray
+  - scipy
+  - scikit-learn
+  - ipykernel
+  - jupyter
+  - jupyterlab
+  - notebook
+  - spyder
+  - opencv
+  - pip
+  - pip:
+    - ruptures
+    - pykrige
+    - pywavelets
+    - scikit-image
+    - scikit-gstat
+    - inspyred
+    - dill
+    - pykml
