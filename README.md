@@ -22,7 +22,10 @@ Este repositorio contiene códigos y archivos generados para facilitar el uso lo
         ├── AST_L1A_00309252008151116_20250717092247_3856638.zip
         └── AST_L1A_00309252008151116_20250717092247_3856638.zip.met
         ```
-
+  * **`run_mmast_v1.sh`**: Ejecutable ASTER para ejecutar en secuencia de una lista de imágenes:
+    * WorkFlowASTER_ed.sh
+    * PostProcessMicMac.sh
+  *  **`mmaster_bias_correction_ed.py`** : Archivo editado de `mmaster_bias_correction.py`
 ## Ejecución de MMASTER
 
 Sigue los siguientes pasos para ejecutar `mmaster`:
@@ -45,8 +48,22 @@ Sigue los siguientes pasos para ejecutar `mmaster`:
     ```
 
 3.  **Ejecutar los Comandos de MMASTER**:
-    Ubícate en la dirección donde se encuentra la carpeta principal de tu conjunto de datos (ej. `AST_L1A_00309252008151116`) y ejecuta los siguientes comandos:
+    Ubícate en la dirección donde se encuentra la carpeta en la cual se ubican las carpetas a procesar 
 
+    ```
+    📁 folderToProcess (aquí te ubicarás)
+    ├── run_mmast_v1.sh (opcional)
+    ├── AST_L1A_00309252008151116
+    |   ├── AST_L1A_00309252008151116_20250717092247_3856638.zip
+    |   └── AST_L1A_00309252008151116_20250717092247_3856638.zip.met
+    ```
+
+     y ejecuta los siguientes comandos:
+      * **Ejecutable secuencial**
+        ```bash
+        bash run_mmast_v1.sh
+        ```
+      
       * **Primer comando**:
 
         ```bash
