@@ -75,3 +75,17 @@ Sigue los siguientes pasos para ejecutar `mmaster`:
         ```bash
         bash /mnt/c/P_CodeProjects/MMASTER-workflows/bin/PostProcessMicMac.sh -d AST_L1A_00309252008151116 -z "18 +south”
         ```
+
+      * **Tercer comando (Co-Registro)**:
+
+        ```bash
+        python3 /mnt/c/P_CodeProjects/MMASTER-workflows/bin/mmaster_bias_correction_ed.py \
+        pathTo/DEM_ref.tif \
+        /pathTo/AST_L1A_00311012024141808 \
+        -s AST_L1A_00311012024141808_Z.tif \
+        -a pathTo/vector_UnstableTerrain.shp \
+        -o BiasCorrection \
+        -n 1
+        ```
+
+
