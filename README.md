@@ -80,12 +80,22 @@ Sigue los siguientes pasos para ejecutar `mmaster`:
 
         ```bash
         python3 /mnt/c/P_CodeProjects/MMASTER-workflows/bin/mmaster_bias_correction_ed.py \
-        pathTo/DEM_ref.tif \
-        /pathTo/AST_L1A_00311012024141808 \
+        /completePathTo/DEM_ref.tif \
+        /completePathTo/AST_L1A_00311012024141808 \
         -s AST_L1A_00311012024141808_Z.tif \
-        -a pathTo/vector_UnstableTerrain.shp \
+        -a completePathTo/vector_UnstableTerrain.shp \
         -o BiasCorrection \
         -n 1
         ```
-
+        Ejemplo:
+        
+        ```
+        python3 /mnt/c/P_CodeProjects/MMASTER-workflows/bin/mmaster_bias_correction_ed.py \
+        /mnt/e/Test_2_huayhuash/dem_copv1.tif \
+        /mnt/e/Test_2_huayhuash/AST_L1A_00305252002152946 \
+        -s AST_L1A_00305252002152946_Z.tif \
+        -a /mnt/e/Test_2_huayhuash/GLIMSV6.shp \
+        -o BiasCorrection \
+        -n 1
+        ```
 
