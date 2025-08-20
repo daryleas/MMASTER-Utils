@@ -30,6 +30,8 @@ Este repositorio contiene códigos y archivos generados para facilitar el uso lo
 
 Sigue los siguientes pasos para ejecutar `mmaster`:
 
+> Paso 0: Inicia WSL
+
 1.  **Activar el Entorno Virtual**:
     Asegúrate de activar el entorno virtual correspondiente. En este caso, el entorno se llama `mmaster_new`:
 
