@@ -22,10 +22,14 @@ Este repositorio contiene códigos y archivos generados para facilitar el uso lo
         ├── AST_L1A_00309252008151116_20250717092247_3856638.zip
         └── AST_L1A_00309252008151116_20250717092247_3856638.zip.met
         ```
-  * **`run_mmast_v1.sh`**: Ejecutable ASTER para ejecutar en secuencia de una lista de imágenes:
-    * WorkFlowASTER_ed.sh
-    * PostProcessMicMac.sh
+
   *  **`mmaster_bias_correction_ed.py`** : Archivo editado de `mmaster_bias_correction.py`
+  ### Ejecutables en serie
+  * **`run_mmast_DemGen_v1.sh`**: Ejecutable para generar DEM en secuencia de una lista de imágenes. Ejecuta:
+    * `WorkFlowASTER_ed.sh`
+    * `PostProcessMicMac.sh`
+  * **`run_mmast_Coregis_v1.sh`**: Ejecutable para ejecutar el coregistro a todas las imágenes de una carpeta. Ejecuta:
+    * `mmaster_bias_correction_ed.py`
 ## Ejecución de MMASTER
 
 Sigue los siguientes pasos para ejecutar `mmaster`:
