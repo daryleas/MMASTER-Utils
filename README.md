@@ -93,7 +93,7 @@ Sigue los siguientes pasos para ejecutar `mmaster`:
         -o BiasCorrection \
         -n 1
         ```
-        Ejemplo:
+        Ejemplos:
         
         ```
         python3 /mnt/c/P_CodeProjects/MMASTER-workflows/bin/mmaster_bias_correction_ed.py \
@@ -104,4 +104,12 @@ Sigue los siguientes pasos para ejecutar `mmaster`:
         -o BiasCorrection \
         -n 1
         ```
-
+        ```
+        python3 /mnt/c/P_CodeProjects/MMASTER-workflows/bin/mmaster_bias_correction_ed.py \
+          /mnt/c/P_MMaster/01Input/TandemX90/TanDEM90_P_rep32718.tif \
+          /mnt/c/P_MMaster/Tst_corregistro02/AST_L1A_00304132010152811 \
+          --slavedem AST_L1A_00304132010152811_Z.tif \
+          --exc_mask /mnt/c/P_MMaster/01Input/RGIv6/glims_polygons_ed01_Dissolved_rep32718.shp \
+          --nproc 4 \
+          -o BiasCorrection 
+        ```
